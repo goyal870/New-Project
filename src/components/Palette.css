@@ -1,0 +1,17 @@
+.heading{
+    color: #7E22CE;
+}
+
+.color-react{
+    animation: flashing 0.5s infinite alternate;
+
+}
+
+@keyframes flashing {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }
